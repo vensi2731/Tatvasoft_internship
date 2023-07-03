@@ -1,50 +1,47 @@
+import React from 'react';
+import './Styles/App.css';
+import { BrowserRouter,} from "react-router-dom";
+import loader from "../src/images/loader.gif";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Components/footer/Footer';
+import Header from './Components/header/Header';
+import MainNavigation from "./Components/MainNavigation";
+import { AuthWrapper } from './context/auth';
+import { CartWrapper } from './context/cart';
 
-import './App.css';
-import {Routes, Route, BrowserRouter, Link} from "react-router-dom";
-//import { globleStyles } from './constants';
-
-import appStyle from "./AppStyle.module.css";
-
-import { HomePage } from './HomePage';
-import { Apple } from './Apple';
-import { NotFound } from './NotFound';
-
-//import Logo from "./images/logo.svg";
-//import siteLogo from "../public/logo192.png"
-
-import { ThemeProvider } from '@emotion/react';
-import { theme } from './styles';
-
-const App = () => (
+const App = () => {
+  return(
 
   <>
-  <ThemeProvider theme={theme}>
-  
 
-  <BrowserRouter>
-  <div  
-  // style={{
-  //   ...globleStyles.navbar
-  //   }}
-     className={appStyle.navbarStyle}
-    >
-  <Link to="/" style={{marginLeft:5}}>Home</Link>
-  <Link to="/apple" style={{marginLeft:10}}>Apple</Link>
-  <Link to="/applet" style={{marginLeft:10}} >Applet</Link>
-  </div>
-
-  <Routes>
-       <Route path='/' element={<HomePage/>}></Route>
-       <Route path='/apple' element={<Apple/>}></Route>
+ 
+ 
+  {/* <Routes>
+       <Route path='/home' element={<HomePage/>}></Route>
+       <Route path='/' element={<Login/>}></Route>
+       <Route path='/register' element={<Register/>}></Route>
        <Route path='*' element={<NotFound/>}></Route>
-  </Routes>
+  </Routes> */}
+  
+  <BrowserRouter>
+  <AuthWrapper>
+    <CartWrapper>
+    <div className="loader-wrapper">
+                <img src={loader} alt="loader" />
+              </div>
+  <Header/>
+ <MainNavigation/>
+  <Footer/>
+  <ToastContainer/>
+  </CartWrapper>
+  </AuthWrapper>
   </BrowserRouter>
-
+  
+ 
   {/* <img src={Logo} alt='App Logo'/> */}
-  <img src={`${process.env.REACT_APP_HOSTED_URL}logo192.png`} alt='App Logo'/>
-  </ThemeProvider>
+  {/* <img src={`${process.env.REACT_APP_HOSTED_URL}logo192.png`} alt='App Logo'/> */}
+  
  </>
-  );
-
-
+  );}
 export default App;

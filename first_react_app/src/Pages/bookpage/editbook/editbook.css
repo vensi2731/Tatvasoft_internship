@@ -1,0 +1,167 @@
+.container_bookpage_{
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 0 50px;
+    width: 100%;
+    
+}
+
+
+.center_bookpage_{
+    text-align: center;
+    font-size: 18px;
+    color:#414141;
+}
+.bookpage_header_{
+    font-size: 32px;
+    color:#414141;
+    margin-top: 50px;
+    position: relative;
+    padding-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bookpage_header_ .underline_bookpage_ {
+    left: 50%;
+    width: 165px;
+    bottom: 0;
+    height: 2px;
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: #f14d54;
+  }
+
+  .side_by_side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+   margin-bottom: 10px;
+
+}
+
+.label_book{
+    font-size:15px;
+    color:#414141;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.formm.MuiInputBase-root {
+    color: #212121;
+    cursor: text;
+    display: inline-flex;
+    position: relative;
+    font-size: 14px;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+    line-height: 1.1876em;
+    letter-spacing: 0.00938em;
+}
+
+.btn_add_edit .btn {
+    height: 40px;
+    font-size: 16px;
+    min-width: 100px;
+    line-height: 40px;
+    border-radius: 4px;
+    text-transform: none;
+}
+
+.btn.save_btn {
+    background-color: #80bf32;
+    color: #fff;
+}
+
+.btn.save_btn:hover {
+    background-color: #5FA021;
+    color: #fff;
+}
+
+
+.btn.cancel_btn {
+    background-color: #f14d54;
+    color: #fff;
+}
+
+.btn.cancel_btn:hover {
+    background-color: #ec232d;
+    color: #fff;
+}
+
+.file-upload-btn {
+    display: block;
+    position: relative;
+    padding-top: 25px;
+    margin-bottom: 35px;
+}
+
+.file-upload-btn .btn {
+    left: 0;
+    height: 40px;
+    padding: 0 10px;
+    position: absolute;
+    font-size: 16px;
+    min-width: 120px;
+    line-height: 40px;
+    border-radius: 0px;
+    text-transform: none;
+}
+
+.btn.upload_btn {
+    background-color: #f14d54;
+    color: #fff;
+}
+
+.btn.upload_btn:hover {
+    background-color: #ec232d;
+    color: #fff;
+}
+
+.uploaded-file-name{
+    margin-right: 450px;
+    /* margin-bottom: 35px; */
+    /* padding-bottom: -35px;   */
+   display: inline-flex;
+   
+   /* margin-top: -35px; */
+  
+}
+
+.uploaded-file-name em{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    
+}
+
+
+
+.uploaded-file-name em img {
+    /* margin-top: 60px; */
+    margin-right: 5px;
+    border-radius: 0px;
+    border: 0;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.uploaded-file-name span {
+    color: #000;
+    cursor: pointer;
+    margin: -10px -10px -10px 0;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+

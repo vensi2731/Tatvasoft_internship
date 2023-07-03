@@ -1,0 +1,215 @@
+.container_book{
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 0 50px;
+    width: 100%;
+}
+
+
+.center_listing{
+    text-align: center;
+    font-size: 18px;
+    color:#414141;
+}
+.book_header{
+    font-size: 32px;
+    color:#414141;
+    margin-top: 50px;
+    position: relative;
+    padding-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.book_header .underline_listing {
+    left: 50%;
+    width: 165px;
+    bottom: 0;
+    height: 2px;
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: #f14d54;
+  }
+
+.title_row_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.MuiTypography-h6 {
+    color: #414141;
+    position: relative;
+    font-size: 20px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 0;
+    margin:0;
+}
+
+.title_row_wrapper .MuiFormControl-root {
+    flex: 0 0 270px;
+    display: flex;
+    max-width: 270px;
+    align-items: center;
+    margin-left: auto;
+    flex-direction: inherit;
+    justify-content: flex-end;
+}
+
+.pagination_wrapper {
+    margin-top: 40px;
+  }
+  
+  .pagination_wrapper .MuiPagination-ul {
+    justify-content: center;
+  }
+  
+  .pagination_wrapper .MuiPagination-ul .MuiPaginationItem-page.Mui-selected {
+    background-color: #f14d54;
+    color: #fff;
+  }
+  
+  .pagination_wrapper .MuiPagination-ul .MuiPaginationItem-page:hover {
+    background-color: rgba(241, 77, 84, 0.7);
+    color: #fff;
+  }
+
+  .book_list_wrapper{
+    
+    margin-top: 30px;
+
+  }
+
+
+  .book_list_inner_wrapper{
+    margin: 0 -15px -30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book_list{
+    flex: 0 0 25%;
+    padding: 0 15px;
+    max-width: 25%;
+    margin-bottom: 30px;
+}
+
+.book_list_inner{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+em{
+    display: block;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    padding-bottom: 82.8%;
+}
+
+.image {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+em img {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    border: 0;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.content_wrapper {
+    padding: 20px 15px;
+}
+
+.content_wrapper h3 {
+    height: 27px;
+    
+    overflow: hidden;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 2px;
+    text-overflow: ellipsis;
+    
+}
+
+.content_wrapper .MuiTypography-h3 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 0em;
+}
+
+.content_wrapper .category {
+    color: #838383;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content_wrapper .description {
+    height: 40px;
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.content_wrapper .price {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content_wrapper .price .discount-price {
+    color: #838383;
+    display: block;
+    font-weight: 400;
+}
+
+.content_wrapper .btn.pink-btn {
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+.btn.pink-btn {
+    background-color: #f14d54;
+    color: #fff;
+    text-transform: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+

@@ -1,0 +1,83 @@
+.container_profile_{
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 0 50px;
+    width: 100%;
+    
+}
+
+
+.center_profile_{
+    text-align: center;
+    font-size: 18px;
+    color:#414141;
+}
+.profile_header_{
+    font-size: 32px;
+    color:#414141;
+    margin-top: 50px;
+    position: relative;
+    padding-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profile_header_ .underline_profile_ {
+    left: 50%;
+    width: 165px;
+    bottom: 0;
+    height: 2px;
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: #f14d54;
+  }
+
+.sidebyside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+   margin-bottom: 10px;
+   padding-bottom: 35px;
+
+}
+
+.label_profile{
+    font-size:15px;
+    color:#414141;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.btn_profile .btn {
+    height: 40px;
+    font-size: 16px;
+    min-width: 100px;
+    line-height: 40px;
+    border-radius: 4px;
+    text-transform: none;
+}
+
+.btn.save-btn {
+    background-color: #80bf32;
+    color: #fff;
+}
+
+.btn.save-btn:hover {
+    background-color: #5FA021;
+    color: #fff;
+}
+
+
+.btn.cancel-btn {
+    background-color: #f14d54;
+    color: #fff;
+}
+
+.btn.cancel-btn:hover {
+    background-color: #ec232d;
+    color: #fff;
+}

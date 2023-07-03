@@ -1,0 +1,195 @@
+.center{
+    text-align: center;
+    font-size: 18px;
+    color:#414141;
+}
+.loginheader{
+    font-size: 32px;
+    color:#414141;
+    margin-top: 50px;
+    position: relative;
+    padding-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.loginheader .underline {
+    left: 50%;
+    width: 140px;
+    bottom: 0;
+    height: 2px;
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: #f14d54;
+  }
+
+.paraStyle1{
+    font-size: 15px;
+    font-style: 'roboto-light';
+    color:#838383;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.label{
+    font-size:15px;
+    color:#414141;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.side-by-side1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-right: 50px;
+    
+}
+.customer{
+    padding-top:8px;
+    padding-left: -10px;
+}
+.loginpart{
+    padding-top:19px;
+   margin-right: 40px;
+
+}
+
+.link-custom{
+    color: #414141;
+   font-size: 18px;
+    
+}
+
+.link-custom:hover{
+    color: #f14d54;
+    font-size: 18px;
+}
+
+.typo-custom{
+    font-size: 18px;
+    color: #f14d54;
+}
+
+
+.custom-typography1{
+    color: #414141;
+    position: relative;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    line-height: 26px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    letter-spacing: 0px;
+    padding-bottom: 15px;
+
+}
+
+.custom-typography1::after{
+left: 0;
+width: 100%;
+bottom: 0;
+height: 1px;
+content: '';
+position: absolute;
+background-color: #e5e5e5;}
+
+
+li{
+    position: relative;
+    color: #212121;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.MuiBreadcrumbs-separator {
+    color: #b4b4b4;
+    font-size: 20px;
+    
+    margin-left: 8px;
+    user-select: none;
+    margin-right: 8px;
+    font-weight: 400;
+}
+
+.btn_login_wrapper .btn {
+    padding: 0 15px;
+    min-width: 110px;
+}
+
+.btn.login-btn {
+    background-color: #f14d54;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 20px;
+    height: 47px;
+    line-height: 47px;
+    padding: 0 29px;
+    text-transform: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn.login-btn:hover {
+    background-color: #ec232d;
+    color: #fff;
+}
+
+.btn_register_wrapper .btn {
+    padding: 0 15px;
+    min-width: 110px;
+}
+
+.btn.register-btn {
+    background-color: #f14d54;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 20px;
+    height: 47px;
+    line-height: 47px;
+    padding: 0 29px;
+    text-transform: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn.register-btn:hover {
+    background-color: #ec232d;
+    color: #fff;
+}
+/* Responsive Styles
+@media (max-width: 768px) {
+    .side-by-side1 {
+        flex-direction: column;
+        padding-right: 0;
+    }
+    
+    .loginpart {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    
+    .customer {
+        padding-left: 0;
+    }
+    
+    .link-custom,
+    .typo-custom {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .loginheader {
+        font-size: 24px;
+    }
+    
+    .custom-typography1 {
+        font-size: 18px;
+    }
+} */
+

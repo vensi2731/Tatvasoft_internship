@@ -37,12 +37,16 @@
     }
   }
   
-  .navbarStyle{
-    display: flex;
-    padding: 5px;
+  .navbar{
+    padding:5px;
+    display:flex;
+    background-color: rgb(244, 89, 89);
     column-gap: 10px;
-    margin-top: 10px;
-    font-weight: 700;
-    font-size: 30px;
-   
+    height:40px;
+    font-size: 20px;
+    font-weight:600;
+  }
+  Link{
+    text-decoration: none;
+    
   }
